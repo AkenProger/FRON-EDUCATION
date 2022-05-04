@@ -1,0 +1,85 @@
+@import "./fonts.css";
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Roboto, sans-serif;
+}
+
+.row {
+    display: flex;
+}
+
+.col-3 {
+    width: 25%;
+    padding: 20px;
+    margin: 30px;
+}
+
+.card {
+    width: 100%;
+    background-color:white;
+    border: 1px solid #e8e6e6;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.card_head {
+
+}
+
+.card_title {
+    text-align: center;
+    color: #3d8d59;
+}
+
+.card_sale {
+    float: left;
+    color: white;
+    padding: 20px;
+    background-color: #3e7250;
+    font-weight: bold;
+}
+
+.card_img {
+    width: 100%;
+}
+
+.card_content {
+    padding: 10px;
+}
+
+.good_category {
+    color: #7e7b7b;
+}
+
+.good_name {
+    color: black;
+    font-size: 23px;
+    padding: 5px 0;
+}
+
+.good_size {
+    color: #7e7b7b;
+}
+
+.goods_price {
+    display: flex;
+    padding: 10px 15px;
+}
+.good_price_mute {
+    color: #7e7b7b;
+    font-size: 20px;
+    padding: 0 10px;
+}
+
+.good_real_price {
+    color: black;
+    font-size: 20px;
+}
+
+.option_item1 {
+    font-size: 20px;
+    color: blueviolet;
+    padding: 0 0 0 70px;
+    box-sizing: border-box;
+}

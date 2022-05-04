@@ -1,0 +1,30 @@
+h1 {
+    color: red;
+}
+
+.a {
+    color: rebeccapurple;
+    /*
+    color: green !important;
+    */
+}
+
+#b {
+    color: brown;
+}
+
+.test {
+    letter-spacing: 3px; /*Растояния между буквами*/
+    line-height: 100px; /*Высота текста*/
+    text-align: left; /*еще есть center*/
+    text-decoration: underline; /*Подчеркивания текста*/
+    text-transform: uppercase; /*Регистр тексте есть еще lowercase*/
+    text-transform: capitalize; /*Каждый первый символ в слове в верхнем регистре*/
+    word-spacing: 20px;/* Растояние между словами*/
+}
+
+.box {
+    max-width: 400px;
+    height: 100px;
+    background-color: cadetblue;
+}

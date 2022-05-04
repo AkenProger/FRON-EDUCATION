@@ -1,0 +1,29 @@
+@import "fonts.css";
+/*
+h1 {
+    font-family: 'Montserrat', sans-serif; !*Без засечкой*!
+}
+
+h2 {
+    font-family: 'Montserrat', sans;!*C засеской*!
+}*/
+
+h1 {
+    font-family: 'Akshar', sans-serif;
+}
+
+h2 {
+    font-family: Akshar, sans-serif;
+}
+
+/*
+Названия размеров
+light - 300
+regular - 400
+medium - 500
+semi-bold - 600
+bold -700
+extra-bold - 800
+black - 900
+
+*/

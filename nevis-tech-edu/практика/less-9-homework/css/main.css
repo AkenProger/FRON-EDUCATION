@@ -1,0 +1,47 @@
+@import "./fonts.css";
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: #ffffff;
+}
+
+.category_title {
+    text-align: center;
+    font-size: 26px;
+    font-family: Roboto, sans-serif;
+}
+
+
+.category {
+    width: 260px;
+    float: left;
+    background-color: white;
+    border: solid 1px #595757;
+    border-radius: 15px;
+    margin: 20px;
+    cursor: pointer;
+}
+
+.category:hover {
+    width: 270px;
+    border: solid 8px #23afaf;
+    transition: 1s;
+    font-size: 35px;
+}
+
+.category_img {
+    width: 100%;
+    padding: 15px 0 0 0;
+}
+
+.category_cont {
+    padding: 10px;
+}
+
+.category_name {
+    text-align: center;
+    font-family: Roboto, sans-serif;
+}
+

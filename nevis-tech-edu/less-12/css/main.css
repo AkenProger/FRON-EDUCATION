@@ -1,0 +1,41 @@
+@import "./fonts.css";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.flex {
+    display: flex;
+    background-color: #494b4b;
+    height: 400px;
+    /*justify-content: center; по центру*/
+   /* justify-content: center;
+    align-items: center;*/
+ /*   justify-content: space-between;
+    flex-direction: column;*/
+    order: 1;/*id блоков номер*/
+
+}
+
+.box_1 {
+    width: 150px;
+    height: 150px;
+    background-color: #09a8d7;
+}
+.box_2 {
+    width: 150px;
+    height: 150px;
+    background-color: #a656b6;
+
+}
+
+.box_3 {
+    width: 150px;
+    height: 150px;
+    background-color: #72a83b;
+}

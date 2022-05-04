@@ -1,0 +1,47 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/*flexbox положит элементы в одну строчку*/
+.red {
+    background-color: red;
+}
+
+.blue {
+    background-color: blue;
+}
+.row {
+    display: flex;
+    /*gap: 20px; старый способ отступа*/
+
+    margin: -10px; /*Убрать отступ по бокам*/
+}
+.col-6 {
+    width: 50%;
+
+}
+
+.col-3 {
+    width: 25%;
+    padding: 0 10px;
+}
+
+.card {
+    width: 100%;
+    background-color: #cbc8c8;
+    border: 1px solid #595757;
+    border-radius: 10px;
+}
+
+.card_mg {
+    width: 100%;
+
+}
+
+.card_content {
+    padding: 10px;
+}
+
+.

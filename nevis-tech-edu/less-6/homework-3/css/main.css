@@ -1,0 +1,106 @@
+* {
+
+}
+
+hr {
+    height: 2px;
+    background-color: black;
+}
+.pres_name {
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.l_name {
+    color: red;
+}
+
+.usa {
+    background-color: #a1d0d2;
+}
+.u {
+    color: blue;
+}
+.s {
+    color: white;
+}
+.a {
+    color: red;
+}
+
+.img {
+    text-align: center;
+    margin-top: 10px;
+}
+.press_img {
+    width: 200px;
+    height: 200px;
+    border: solid 10px black;
+    border-radius: 50%;
+
+}
+
+.sectionAbout {
+    font-size: 25px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+.name {
+    font-family: Arial, serif;
+    font-size: 20px;
+}
+
+.birth_age {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+}
+.birth_city {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+}
+
+
+.polite_part {
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+.pol_list {
+    font-family: 'Montserrat', sans-serif;
+}
+.dates {
+    font-family: 'Montserrat', sans-serif;
+    color: red;
+}
+
+.signature {
+    width: 200px;
+}
+
+.sib_about {
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.sib_i {
+    color: #333333;
+    font-weight: bold;
+}
+
+
+.domes_art {
+    font-size: 19px;
+    font-family: "Agency FB", serif;
+}
+
+.dom_i {
+    color: #333333;
+    font-weight: bold;
+}
+
+.immigration {
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+}

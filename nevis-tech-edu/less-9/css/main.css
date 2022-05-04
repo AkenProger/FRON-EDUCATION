@@ -1,0 +1,41 @@
+@import "./fonts.css";
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #d7d3d3;
+    font-family: "Roboto", sans-serif;
+}
+/*START styles for card*/
+.card {
+    width: 250px;
+    float: left;
+    margin: 20px;
+    background-color: #ffffff;
+}
+
+.card_img {
+    width: 100%;
+}
+
+.card_content {
+    padding: 20px;
+}
+
+.card_title {
+    margin-bottom: 15px;
+}
+
+.card:hover {
+    width: 260px;
+    border-radius: 15px;
+    transition: 2s;
+}
+
+.card_date {
+
+}
+
+/*END styles for card*/

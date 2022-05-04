@@ -1,0 +1,26 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/*flexbox положит элементы в одну строчку*/
+
+.row {
+    display: flex;
+}
+
+.col-6 {
+    width: 50%;
+}
+
+.col-2 {
+    width: 17%;
+}
+
+.colSix {
+    background-color: #595757;
+}
+.colTwo {
+    background-color: #09a8d7;
+}

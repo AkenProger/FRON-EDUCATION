@@ -1,0 +1,26 @@
+@font-face {
+    font-family: 'Akshar';
+    src: url('../fonts/Akshar-Light.eot');
+    src: url('../fonts/Akshar-Light.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Akshar-Light.woff2') format('woff2'),
+    url('../fonts/Akshar-Light.woff') format('woff'),
+    url('../fonts/Akshar-Light.ttf') format('truetype'),
+    url('../fonts/Akshar-Light.svg#Akshar-Light') format('svg');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Akshar';
+    src: url('../fonts/Akshar-Bold.eot');
+    src: url('../fonts/Akshar-Bold.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Akshar-Bold.woff2') format('woff2'),
+    url('../fonts/Akshar-Bold.woff') format('woff'),
+    url('../fonts/Akshar-Bold.ttf') format('truetype'),
+    url('../fonts/Akshar-Bold.svg#Akshar-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
