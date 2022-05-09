@@ -1,0 +1,182 @@
+@import "./fonts.css";
+
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    max-width: 1340px;
+    margin: 0 auto;
+}
+
+.header {
+    height: 122px;
+    background: #FFFFFF;
+    border: 1px solid #000000;
+}
+
+.header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+.header_log {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 38px;
+}
+
+.header_input {
+    width: 366px;
+    height: 46px;
+    border: 1px solid #000000;
+    font-size: 20px;
+    padding: 0 15px;
+}
+
+.header_search {
+    display: flex;
+}
+
+.header_btn {
+    width: 135px;
+    height: 46px;
+    border: none;
+    background: #000000;
+    color: white;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 33px;
+}
+
+/*HEADER END*/
+
+/*MAIN SECTION*/
+.main {
+    padding: 40px 0 50px;
+}
+
+.main_container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.news {
+    width: 863px;
+}
+
+.article_title {
+    font-weight: 500;
+    font-size: 52px;
+    line-height: 61px;
+}
+
+.article_date_time {
+    display: flex;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 21px;
+    padding-top: 15px;
+}
+
+.space {
+    padding-left: 60px;
+}
+
+.news_img {
+    padding-top: 30px;
+    padding-bottom: 20px;
+
+}
+
+.article_author {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.article_description {
+    padding-top: 10px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+}
+
+.article_comment {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19px;
+    margin-bottom: 10px;
+}
+
+.article_desc {
+    width: 736px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    margin-bottom: 28px;
+}
+
+.article_link {
+    color: #146EF5;
+}
+
+.comment {
+    display: flex;
+}
+
+.comment_inf {
+    padding-left: 21px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.comment_name {
+    margin-bottom: 7px;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 26px;
+}
+
+.comment_link {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #146EF5;
+}
+
+/*Adds styles*/
+
+.adds_title {
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 38px;
+    color: black;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.card {
+    width: 364px;
+    height: 284px;
+}
+
+.card_1 {
+    background-image: url("../img/Rectangle 3.png");
+}
+

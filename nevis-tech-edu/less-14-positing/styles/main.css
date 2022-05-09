@@ -1,0 +1,51 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.box1, .box2, .box3 {
+    width: 100px;
+    height: 100px;
+}
+
+.box1 {
+   background: #b3f5f5;
+    width: 100%;
+    text-align: center;
+}
+
+.box2 {
+    position: sticky;
+    background: #3d8d59;
+    top: 0;
+    width: 100%;
+}
+
+.box3 {
+background: #09a8d7;
+    background: #09a8d7;
+    position: fixed;
+    bottom: 20px;
+    right: 11px;
+    border-radius: 50%;
+}
+
+.box_4 {
+    width: 200px;
+    height: 200px;
+    background: #93934b;
+    position: absolute;
+    top: 50px;
+    right: 358px;
+}
+/*
+
+position: sticky, relative, absolute, fixed
+центрировать абсолют блок
+right:0
+left: 0
+margin 0 auto;
+transform: translateX(-50%);
+
+*/

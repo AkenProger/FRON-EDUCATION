@@ -1,0 +1,42 @@
+
+.box1 {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    top: 100px;
+    left: 100px;
+    background: #09a8d7;
+}
+.box2 {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    top: 150px;
+    left: 150px;
+    background: #b233d3;
+}
+.box3 {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    top: 200px;
+    left: 200px;
+    background: #52d26e;
+}
+
+.link li::before {
+    content: "***";
+}
+
+.link li::after {
+    content: ")))";
+}
+
+aside {
+    overflow-x: hidden;
+    overflow-y: hidden;
+    height: calc(100vh - 104px);
+    position: sticky;
+    z-index: 5;
+    top: 104px;
+}
